@@ -1,3 +1,4 @@
+#include <Arduino.h>
 //globla space 전역공간 globla scope
 /* 1,2번
 const uint8_t LED1 {2U};  //2~9 pin use
