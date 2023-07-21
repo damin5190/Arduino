@@ -9,6 +9,7 @@ void setup() {
   Serial.begin(115200UL);
   pinMode(LED, OUTPUT);
   pinMode(TILT_SWITCH, INPUT_PULLUP); //풀업 저항 상태 기본 하이 상태가 됨.
+  //풀업으로 만드는 방법 >  { 아누이노에 연결하는 핀 <- ((+) 진동감지센서 (-)) -> 저항, 5v연결 }
 
   for (auto &&i : LEDS){
     pinMode(i, OUTPUT);
